@@ -1,0 +1,31 @@
+<navbar> </navbar>
+<div>
+  <div>
+
+
+
+
+
+
+
+    <div class="allProducts">
+      <div ng-repeat="product in products">
+        <div class="ProductBox">
+          <div class="productImageBox">
+            <img ng-src="{{product.imageUrl}}" alt="" /> <br>
+          </div>
+            <div class="productName">{{product.name}}</div>
+            <div class="productPrice">${{product.price}}</div>
+            <div class="productDescription">{{product.description}}</div>
+            <div class="quantityRemaining">Quantity Remaining: {{product.quantity}}</div>
+            <button class="buyNow" ng-click="addToCart({{product}})">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+</div>

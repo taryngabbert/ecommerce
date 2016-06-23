@@ -1,0 +1,81 @@
+/*ALL PRODUCTS AND ADMIN VIEW*/
+
+.allProducts {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+  .ProductBox {
+    height: 475px;
+    width: 250px;
+    background-color: rgba(203, 203, 203, 0.5);
+    margin: 5px;
+    border-radius: 5px;
+    font-family: Calibri;
+  }
+  .productImageBox img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height:250px;
+    border-radius: 5px;
+  }
+  .productImageBox {
+    height: 250px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  .productName {
+    font-weight: bolder;
+    font-size: 2em;
+    margin-top: 1px;
+    text-align: center;
+  }
+  .productPrice {
+    text-align: right;
+    margin-right: 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: rgb(153, 1, 1);
+  }
+  .quantityRemaining {
+    text-align: center;
+  }
+  .productDescription {
+    font-size: 0.90em;
+    padding: 7px;
+    text-align: justify;
+    line-height: 11.5px;
+    min-height: 100px;
+    height:100px;
+    overflow: hidden;
+  }
+  .buyNow{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(50, 113, 172);
+    color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+
+/*ADMIN*/
+
+.addNewProduct {
+  width: 176px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  border: none;
+  font-weight: bolder;
+  color: white;
+  margin-bottom: 20px;
+}
